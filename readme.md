@@ -54,9 +54,36 @@ graph TD
 - **XGBoost:** Final classification using deep features
 - **Ensemble Output:** Combines both model confidences for robust detection
 
-**Feature List:**
+**Feature List (26 features + Label):**
 ```
-Flow Duration, Total Fwd Packets, Total Backward Packets, Fwd Packets Length Total, Bwd Packets Length Total, Packet Length Max, Packet Length Min, Flow IAT Mean, Flow IAT Std, Flow IAT Max, Flow IAT Min, Fwd IAT Total, Fwd IAT Mean, Bwd IAT Total, Bwd IAT Mean, Flow Bytes/s, Flow Packets/s, SYN Flag Count, RST Flag Count, ACK Flag Count, URG Flag Count, Bwd Packets/s, Fwd Packets/s, Down/Up Ratio, Subflow Fwd Bytes, Subflow Bwd Bytes, Protocol
+1. Flow Duration
+2. Total Fwd Packets
+3. Total Backward Packets
+4. Fwd Packets Length Total
+5. Bwd Packets Length Total
+6. Packet Length Max
+7. Packet Length Min
+8. Flow IAT Mean
+9. Flow IAT Std
+10. Flow IAT Max
+11. Flow IAT Min
+12. Fwd IAT Total
+13. Fwd IAT Mean
+14. Bwd IAT Total
+15. Bwd IAT Mean
+16. Flow Bytes/s
+17. Flow Packets/s
+18. SYN Flag Count
+19. RST Flag Count
+20. ACK Flag Count
+21. URG Flag Count
+22. Bwd Packets/s
+23. Fwd Packets/s
+24. Down/Up Ratio
+25. Subflow Fwd Bytes
+26. Subflow Bwd Bytes
+27. Protocol
+28. Label (Target: 0 = Normal, 1 = DDoS Attack)
 ```
 
 ---
