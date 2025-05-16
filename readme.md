@@ -1,6 +1,6 @@
 # 🚨 SentientAI: DDoS Detection Dashboard
 
-![Futuristic AI Cybersecurity](dump/AI.webp)
+![Futuristic AI Cybersecurity](dump/SentientAI.png)
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://www.python.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.18-orange?logo=tensorflow)](https://www.tensorflow.org/)
