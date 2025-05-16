@@ -32,11 +32,12 @@
 graph TD
     A[Network Traffic Data] --> B[Preprocessing & Feature Engineering]
     B --> C[CNN-LSTM Model]
-    C --> D[Feature Extraction (26D)]
+    C --> D[Feature Extraction - 26 Features]
     D --> E[XGBoost Classifier]
     E --> F[Prediction & Alert]
     F --> G[Streamlit Dashboard]
     F --> H[FastAPI Endpoint]
+
 ```
 
 ---
