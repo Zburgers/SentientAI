@@ -1,6 +1,6 @@
 # 🚨 SentientAI: DDoS Detection Dashboard
 
-![Futuristic AI Cybersecurity](dump/DALL·E%202025-02-21%2002.44.46%20-%20A%20futuristic%20AI-powered%20cybersecurity%20system%20monitoring%20real-time%20network%20traffic.%20The%20image%20should%20feature%20a%20glowing%20digital%20brain%20integrated%20into%20a%20.webp)
+![Futuristic AI Cybersecurity](dump/AI.webp)
 
 [![Python](https://img.shields.io/badge/Python-3.10%2B-blue?logo=python)](https://www.python.org/)
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.18-orange?logo=tensorflow)](https://www.tensorflow.org/)
